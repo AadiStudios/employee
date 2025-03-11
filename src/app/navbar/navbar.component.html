@@ -1,0 +1,14 @@
+
+<nav class="navbar">
+  <ul>
+    <li><a (click)="navigateTo('employee')" class="nav-link">EMPLOYEE</a></li>
+    <li><a (click)="navigateTo('wage')" class="nav-link">WAGES</a></li>
+    <!-- <li><a (click)="navigateTo('food')" class="nav-link">FOOD</a></li> -->
+    <li><a (click)="navigateTo('expense')" class="nav-link">EXPENSE</a></li>
+    <li><a (click)="navigateTo('report')" class="nav-link">Report</a></li>
+    <!-- <button *ngIf="isLoggedIn" (click)="logout()">Sign Out</button> -->
+      <button *ngIf="isLoggedIn" (click)="logout()" class="signout-btn">Sign Out</button>
+    
+  </ul>
+
+</nav>
